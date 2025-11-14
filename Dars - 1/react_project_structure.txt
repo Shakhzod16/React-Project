@@ -1,0 +1,41 @@
+SRC PAPKASI VA FAYLLARINING TO‘LIQ TUSHUNTIRISHI (REACT + VITE)
+
+1.  assets/ Rasmlar, videolar, ikonlar, fontlar kabi statik fayllar
+    joylashadi.
+
+2.  components/ Kichik, qayta ishlatiladigan komponentlar: Button, Card,
+    Loader, Modal va hokazo.
+
+3.  layouts/ Sahifaning asosiy tuzilma qismlari: Header, Footer,
+    Sidebar, Navbar.
+
+4.  pages/ Alohida sahifalar: Home, About, Contact va boshqalar (Router
+    bilan ishlatiladi).
+
+5.  scss/ SCSS/SASS style fayllari, mixinlar, variables, yordamchi style
+    fayllar.
+
+6.  App.css Asosiy App.jsx komponenti bilan bog‘langan style fayl.
+
+7.  App.jsx Butun ilovaning bosh komponenti: Header, Main, Footer shu
+    yerda chaqiriladi.
+
+8.  index.css Global CSS: reset, fontlar, umumiy style.
+
+9.  main.jsx React-ni DOM ga ulaydi: ni #root ichiga joylaydi.
+
+10. index.html Vite tomonidan ishlatiladigan asosiy HTML fayl. Faqat
+    #root bo‘ladi.
+
+11. package.json Loyiha haqida ma’lumot: dependencies, scripts, nom,
+    versiya.
+
+12. package-lock.json Dependency versiyalarini aniq saqlab qo‘yadi.
+
+13. vite.config.js Vite serverining konfiguratsiyasi: alias, plugins,
+    server settings.
+
+14. eslint.config.js ESLint qoidalari: kod sifati va standartlashtirish.
+
+15. .gitignore Gitga kirmasligi kerak bo‘lgan fayllar: node_modules,
+    dist, .env va boshqalar.
