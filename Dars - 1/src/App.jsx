@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './layouts/Footer';
 import Header from './layouts/Header';
 import Main from './layouts/Main';
+import Navbar from './components/navbar';
 
 function Counter() {
 	const [count, setCount] = useState(0);
@@ -13,15 +14,14 @@ function Counter() {
 
 	return <button onClick={handleClick}>You pressed me {count} times</button>;
 }
-
 function App() {
 	return (
-		<div>
-			<Header />
-			<Main />
-			<Counter />
-			<Footer />
-		</div>
+		<>
+			<Navbar />
+			<div style={{ paddingTop: '100px', textAlign: 'center' }}>
+				<h1>Welcome</h1>
+			</div>
+		</>
 	);
 }
 
