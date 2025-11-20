@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import logo from '../assets/Rectangle.png';
 import '../scss/styles/main.scss';
 
 export default function Navbar() {
@@ -7,7 +8,9 @@ export default function Navbar() {
 	return (
 		<nav className='navbar'>
 			<div className='nav-container'>
-				<div className='logo'>MyLogo</div>
+				<div className='logo'>
+					<img src={logo} alt='logo' />
+				</div>
 
 				<ul className={open ? 'nav-links active' : 'nav-links'}>
 					<li>

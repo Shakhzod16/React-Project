@@ -1,0 +1,100 @@
+.section-content {
+  max-width: 1140px;
+  width: 90%;
+  margin: 68px auto 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .text {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #1572d31a;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 14px;
+      color: #1572d3;
+      line-height: 150%;
+    }
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 130%;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 22px;
+    }
+  }
+
+  .box {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap; // перенос на новую строку на маленьких экранах
+    justify-content: center;
+
+    .card {
+      width: 230px;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .kub {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 112px;
+        height: 112px;
+        background-color: #ecf5ff;
+        border-radius: 16px;
+        margin-bottom: 16px;
+      }
+
+      h2 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #000000;
+        margin-bottom: 8px;
+
+        @media (max-width: 480px) {
+          font-size: 18px;
+        }
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 14px;
+        color: #6d6d6d;
+        line-height: 150%;
+
+        @media (max-width: 480px) {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+
+  .CarModels {
+    margin-top: 80px;
+    width: 1500px;
+    height: auto;
+  }
+}

@@ -1,0 +1,117 @@
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-section {
+  width: 100%;
+}
+
+/* === NAV === */
+.nav {
+  height: 80px;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+.menu a {
+  font-size: 16px;
+  color: #484848;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sign {
+  display: flex;
+  gap: 16px;
+}
+.sign .signIn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #484848;
+}
+.sign .signUp {
+  width: 125px;
+  height: 43px;
+  border-radius: 8px;
+  background: #1572D3;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* === HERO === */
+.decktop {
+  margin-top: 120px;
+}
+.decktop .text h1 {
+  font-size: 52px;
+  line-height: 110%;
+  font-weight: 600;
+}
+.decktop .text h1 span {
+  color: #1572D3;
+}
+.decktop .text p {
+  margin-top: 24px;
+  font-size: 18px;
+  color: #272727;
+  line-height: 150%;
+}
+.decktop .text .SS {
+  margin-top: 32px;
+}
+.decktop .car {
+  margin-left: auto;
+  width: 520px;
+}
+
+/* === SEARCH === */
+.seacher {
+  background: #fff;
+  margin-top: 48px;
+  height: 88px;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px rgba(21, 114, 211, 0.15);
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  gap: 32px;
+}
+.seacher .card {
+  width: 255.6666717529px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-right: 32px;
+  border-right: 1px solid #E5E5E5;
+}
+.seacher .card .label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.seacher .card .value {
+  font-size: 12px;
+  color: #7A7A7A;
+}
+.seacher .no-border {
+  border-right: none;
+  padding-right: 0;
+}
+.seacher .ButCard {
+  width: 132px;
+  height: 48px;
+  background: #1572D3;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}/*# sourceMappingURL=Navbar.css.map */

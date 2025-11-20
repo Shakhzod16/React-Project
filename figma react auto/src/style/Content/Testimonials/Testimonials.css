@@ -1,0 +1,72 @@
+.testimonials {
+  text-align: center;
+  padding: 80px 20px;
+}
+.testimonials .tag {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #e8f1ff;
+  border-radius: 12px;
+  color: #2f80ed;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.testimonials .title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.testimonials .testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+.testimonials .testimonial-card {
+  background: white;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+.testimonials .testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+.testimonials .testimonial-card .avatar {
+  width: 100%;
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 18px;
+}
+.testimonials .testimonial-card .rating {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.testimonials .testimonial-card .rating span {
+  font-size: 16px;
+  color: #777;
+  font-weight: 500;
+}
+.testimonials .testimonial-card .rating .stars {
+  color: gold;
+  margin-top: 4px;
+  font-size: 18px;
+}
+.testimonials .testimonial-card .review {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+  margin: 12px 0 20px;
+}
+.testimonials .testimonial-card .author h4 {
+  font-size: 18px;
+  margin: 0;
+}
+.testimonials .testimonial-card .author span {
+  font-size: 14px;
+  color: #888;
+}/*# sourceMappingURL=Testimonials.css.map */

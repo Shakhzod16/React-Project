@@ -1,0 +1,98 @@
+.popular-cars {
+  text-align: center;
+  padding: 40px 0;
+}
+.popular-cars .section-tag {
+  background: #e8f0ff;
+  color: #3d63ff;
+  padding: 6px 16px;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.popular-cars .title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.popular-cars .cars-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding: 0 40px;
+}
+.popular-cars .car-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: 0.25s ease;
+  text-align: left;
+}
+.popular-cars .car-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.popular-cars .car-card .car-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.popular-cars .car-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.popular-cars .car-card .rating {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.popular-cars .car-card .rating span {
+  color: #777;
+}
+.popular-cars .car-card .features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 13px;
+  gap: 6px 12px;
+  color: #555;
+  margin-bottom: 18px;
+}
+.popular-cars .car-card .price {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.popular-cars .car-card .price span {
+  color: #000;
+  font-size: 22px;
+}
+.popular-cars .car-card .rent-btn {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  background: #2f67ff;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.popular-cars .car-card .rent-btn:hover {
+  background: #1a4fe3;
+}
+.popular-cars .show-all {
+  margin-top: 40px;
+  padding: 10px 26px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s;
+}
+.popular-cars .show-all:hover {
+  background: #f7f7f7;
+}/*# sourceMappingURL=OnliMag.css.map */
